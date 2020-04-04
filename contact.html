@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Daniels C</title>
+</head>
+
+<body>
+  <h1>My contact details</h1>
+  <p><strong>Address:</strong><br>Dorfstrasse 2a<br>8835, Feusisberg, Switzerland<br>
+    <strong>Mobile:</strong>+4177-980-48-07<br>
+    <strong>Email:</strong><a href="mailto:simplyamazing_11@msn.com">simplyamazing_11@msn.com</a>
+  </p>
+  <hr>
+  <h2>Consultation</h2>
+  <p>Set an appointment for a project consultation by submitting the form below.</p><br>
+
+<!--form below is not yet working until javascript is applied-->
+
+  <form action="mailto:danielkoett@gmail.com" method="post" enctype="text/plain">
+    <label>How do you wish to be contacted?</label>
+    <input type="radio" name="prefcontact" value="Email" checked="checked">Email
+    <input type="radio" name="prefcontact" value="Mobile">Mobile <br>
+
+    <label>First Name:</label>
+    <input type="text" name="firstname" value="" required="required"><br>
+
+    <label>Last Name:</label>
+    <input type="text" name="lastname" value=""><br>
+
+    <label>Company name (if applicable):</label>
+    <input type="text" name="companyname" value=""><br>
+
+    <label>Email:</label>
+    <input type="email" name="clientmail" value=""><br>
+
+    <label>Place your comments here:</label><br>
+    <textarea name="comments" rows="8" cols="80" placeholder="Enter your text here..."></textarea>
+
+    <input type="submit" name="">
+
+  </form>
+  <br>
+  <a href="index.html">Go Back</a>
+</body>
+
+</html>
